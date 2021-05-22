@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/me.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -108,47 +108,44 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">24</span>
+                          <span className="description">Years old</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading">2</span>
+                          <span className="description">Months in ASAC</span>
                         </div>
-                        <div>
+                        {/* <div>
                           <span className="heading">89</span>
                           <span className="description">Comments</span>
-                        </div>
+                        </div> */}
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Motasim Al-Azzam{" "}
+                      <span className="font-weight-light"></span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Irbid, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Developer - Student in ASAC
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Bachelor’s Degree of Mechanical Engineering,
+                     Al-Hussein Bin Talal University
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        I studied mechanical engineering between 2015 and 2020, and after graduation, because of my love for programming, I took the Shift Career step. During my studies at the university, I learned to use Matlab and C ++, and I also dealt with Arduino programming during my graduate project. Now I am a student at ASAC as a software developer, and I am happy about that.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
